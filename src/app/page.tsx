@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Feedbacks from "./components/Feedbacks";
+import Footer from "./components/Footer";
 import Forms from "./components/Forms";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -9,7 +10,7 @@ import Services from "./components/Services";
 
 export default function Home() {
   return (
-    <main className="pb-[100px]">
+    <main>
       <Header />
       <NavBar />
       <Hero />
@@ -17,7 +18,10 @@ export default function Home() {
       <OurNumbers />
       <Services />
       <Feedbacks />
-      <Forms />
+      <div className="bg-gradient-to-b from-white to-[#C5C5C5] max-sm:pb-[60px]">
+        <Forms />
+        <Footer />
+      </div>
     </main>
   );
 }

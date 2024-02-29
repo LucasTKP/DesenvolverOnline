@@ -10,7 +10,7 @@ function NavBar() {
     return (
         <section className='flex items-center justify-center fixed w-[100%] left-0 bottom-[20px] sm:hidden z-50'>
             <div className='w-[100%] max-w-[300px] bg-[#ECECEC] rounded-full  flex items-center justify-between p-[10px] border-[#000] border-[2px]'>
-                <a href='#house'>
+                <a href='#home'>
                     <Image src={iconHouse} alt='casa' width={30} />
                 </a>
 

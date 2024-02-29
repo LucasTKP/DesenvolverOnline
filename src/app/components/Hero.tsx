@@ -4,7 +4,7 @@ import arrowBottom from '@/public/icons/arrowBottom.svg'
 
 function Hero() {
     return (
-        <section id={'about'} className='bg-[#F1F1F1] px-[10%] max-2xl:px-[9%] max-xl:px-[8%] max-lg:px-[6%] max-md:px-[4%] max-sm:px-[3%] flex max-sm:flex-col items-center justify-between relative overflow-x-hidden'>
+        <section id={'house'} className='bg-[#F1F1F1] px-[10%] max-2xl:px-[9%] max-xl:px-[8%] max-lg:px-[6%] max-md:px-[4%] max-sm:px-[3%] flex max-sm:flex-col items-center justify-between relative overflow-x-hidden'>
             <div className='w-[150px] max-2xl:w-[140px] max-xl:w-[120px] max-lg:w-[80px] max-md:w-[50px] max-sm:hidden aspect-square bg-black rounded-full absolute left-0 translate-x-[-60%]  bottom-[20px]' />
             <div className='w-[150px] max-2xl:w-[140px] max-xl:w-[120px] max-lg:w-[80px] max-md:w-[50px] max-sm:hidden aspect-square bg-black rounded-full absolute right-0 translate-x-[60%]  top-[20px]' />
             <button className='p-[8px] max-lg:p-[6px] max-md:p-[4px] bg-primary rounded-full aspect-square absolute left-1/2 -translate-x-1/2 bottom-[20px] animate-bounce hover:brightness-75 duration-200 max-sm:hidden'>

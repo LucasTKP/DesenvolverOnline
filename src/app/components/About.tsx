@@ -19,13 +19,13 @@ function About() {
 
     const characteristics4 = {
         title:'Pós-Venda',
-        description: 'Nosso serviço de pós-venda de excelência oferecerá suporte contínuo e responderá suas dúvidas após a conclusão do projeto.'
+        description: 'Nosso serviço de pós-venda de excelência oferecerá suporte contínuo e responderá suas dúvidas e acompanhará você após a após a conclusão do projeto.'
     }
 
 
 
     return (
-        <section className='px-[10%] max-2xl:px-[9%] max-xl:px-[8%] max-lg:px-[6%] max-md:px-[4%] max-sm:px-[3%] pt-[50px] max-lg:pt-[40px] max-sm:pt-[30px]'>
+        <section id='about' className='px-[10%] max-2xl:px-[9%] max-xl:px-[8%] max-lg:px-[6%] max-md:px-[4%] max-sm:px-[3%] pt-[50px] max-lg:pt-[40px] max-sm:pt-[30px]'>
             <p className='text-primary font-medium text-[30px] max-2xl:text-[28px] max-xl:text-[26px] max-lg:text-[24px] max-md:text-[22px] max-sm:text-[20px] max-lsm:text-[18px]'>Nosso Diferencial:</p>
             <h4 className='font-fira font-semibold text-[34px] max-2xl:text-[32px] max-xl:text-[30px] max-lg:text-[27px] max-md:text-[24px] max-sm:text-[22px] max-lsm:text-[19px]  mt-[30px] max-lg:mt-[20px] max-sm:mt-[10px]'>4 Características que só nós <br className='max-lsm:hidden'/> podemos te oferecer:</h4>
             

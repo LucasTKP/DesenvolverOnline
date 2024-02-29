@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Feedbacks from "./components/Feedbacks";
+import Forms from "./components/Forms";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -16,6 +17,7 @@ export default function Home() {
       <OurNumbers />
       <Services />
       <Feedbacks />
+      <Forms />
     </main>
   );
 }
